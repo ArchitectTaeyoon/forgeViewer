@@ -1,0 +1,31 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:3000",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "FORGE_CALLBACK_URL": "http://localhost:3000/api/forge/callback/oauth",
+        "FORGE_CLIENT_SECRET": "Ap8cu8u98qnlx8QY",
+        "ASPNETCORE_URLS": "https://forgeviewer-bim360.azurewebsites.net/api/forge/callback/oauth",
+        "FORGE_CLIENT_ID": "GBdNcNT8qnmXVem3tcTzsaAmCKpgAq8F",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "forgeViewer": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5000"
+    }
+  }
+}
